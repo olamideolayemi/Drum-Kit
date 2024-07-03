@@ -15,3 +15,7 @@ it could also be written as an anonymous function:
 document.querySelector("button").addEventListener("click", function () {
 	alert("I got clicked);
 })
+
+How to add audio with javascript
+var audio = new Audio("audio.mp3")
+audio.play();
